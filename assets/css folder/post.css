@@ -1,0 +1,83 @@
+
+.account-name{
+    display: inline;
+    margin: 2px;
+    color: #F8FFDB;
+}
+
+.main-account{width: 35px;
+height: 35px;
+border-radius: 25px;
+border-width: 1px;
+padding: 1px;
+object-fit: cover;
+box-shadow: 1px 1px 2px gray;
+cursor: pointer;
+}
+
+.id-info{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding:5px 2px;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+
+p{
+    color: azure;
+}
+
+.post{
+    height: 520px;
+    width: 423px;
+}
+
+.fa-heart:hover{
+    font-weight: bold;
+    color: red;
+}
+
+.fa{
+    font-size: 20px;
+    object-fit: contain;
+    padding-right: 3px;
+    color: white;
+}
+
+.fa-bookmark:hover{
+    font-weight: bold;
+}
+
+.share{
+    padding-top: 1px;
+    height: 18px;
+    width: 18px;
+    object-fit: contain;
+}
+
+.comment{
+    height: 18px;
+    width: 18px;
+    object-fit: contain;
+}
+
+.icon-bar{
+    margin-top: 10px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    vertical-align: top;
+}
+
+.flex-id{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-bottom: 2px;
+    width: 100%;
+    align-items: center;
+}

@@ -1,0 +1,46 @@
+body{
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.channel-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.channel-image{
+ height: 150px;
+ width: 150px;
+ object-fit: contain;
+ box-shadow: 0px 1px 3px 3px gray;
+ transition: 1s;
+ background-color: white;
+ cursor: pointer;
+}
+
+.channel-image:hover{
+    transform: scale(0.8);
+}
+
+.link{
+    cursor: default;
+}
+
+/* nav bar */
+.bg-change:nth-child(2){
+    background-color:#FB2576;
+}

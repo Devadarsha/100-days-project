@@ -1,0 +1,124 @@
+body{
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.below-nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    height: 92%;
+    width: 100%;
+    
+   
+}
+
+/* content */
+.option-list{
+    color: whitesmoke;
+}
+
+.option-catergories {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0%;
+    align-items: flex-start;
+    padding-left: 3px;
+    margin-left:40px;
+}
+
+.option-catergories li{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.fa{
+    padding-right: 10px;
+}
+
+main{
+    margin: 70px 0px;
+}
+
+
+/* footer */
+.footer{
+    background-color:#e1ceb564;
+    opacity: 0.9;
+    padding: 10px; 
+    margin:0px;
+    display: flex; 
+    flex-direction: column;
+    align-items:center ;
+    height: 18vh;
+}
+
+.contact-icon{
+    display:inline-flex;
+}
+
+.contact-icon .contact-websites{
+    padding: 0px 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.contact-icon .contact-websites span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.contact-icon .contact-websites .Facebook:hover{
+    background-color: #3B5999;
+    color: white;
+}
+
+.contact-icon .contact-websites .Instagram:hover{
+    background-color: #e1306c;
+    color: white;
+}
+
+.contact-icon .contact-websites .twitter:hover{
+    background-color: #46C1F6;
+    color: white;
+}
+
+.contact-icon .contact-websites .github:hover{
+    background-color: #333;
+    color: white;
+}
+
+.contact-icon .contact-websites .youtube:hover{
+    background-color: #DE463B;
+    color: white;
+}
+
+.contact-us{
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding:0px 0px 10px 0px;
+}
+
+.copy-rights{
+    padding: 15px 0px 10px 0px;
+    color:rgb(231, 226, 226);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav bar */
+.bg-change:nth-child(5){
+    background-color:#FB2576;
+}

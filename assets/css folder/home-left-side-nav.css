@@ -1,0 +1,40 @@
+.bg-change:nth-child(1){
+    background-color:#FB2576;
+}
+
+/* home left side bar */
+.left{
+    height:auto;
+    display: flex;
+    width: 17%;
+    flex-direction: column;
+    background-color:#47b5ff1f;
+    filter:brightness(120%),contrast(120%),saturate(70%),opacity(0.9);
+}
+
+.left-side-nav{
+    display: flex;
+    flex-direction: column;
+    color:whitesmoke;
+    align-items: flex-start;
+    padding:10px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+
+.side-bar-icon{
+    font-size: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 10px 0px 10px 2px;
+}
+
+.left .left-side-nav .side-bar-icon a{
+    padding-left:5px;
+    font-size: 30px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}

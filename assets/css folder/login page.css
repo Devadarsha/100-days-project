@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background:linear-gradient(#5EFCE8,#736EFE);
+    font-family:Roboto, Arial,Arial, Helvetica, sans-serif ;
+    
+}
+
+.login-box{
+    height: 650px;
+    width: 350px;
+    background-color: whitesmoke;
+    padding: 28px;
+    display: inline;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    cursor: default;
+}
+
+.login-head{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight:700;
+    font-family: Roboto;
+}
+
+.account-info{
+    margin-top: 25px;
+}
+
+.forgot-password{
+    padding-left: 65%;
+    font-size: 0.9em;
+    color: #B2B2B2;
+    display: block;
+    margin: 5px 0px 5px 0px;
+    text-decoration: none;
+}
+
+.login-button{
+    width: 100%;
+    height: 45px;
+    background:linear-gradient(90deg,#32CCBC,#28C76F);
+    border-radius: 45px;
+    border-style: none;
+    margin: 15px 0px 15px 0px;
+    
+}
+
+.login-button:hover{
+    box-shadow: 0px 2px 3px 2px lightgrey;
+    background:linear-gradient(-90deg,#32CCBC,#28C76F);
+}
+
+.login-input{
+    border-style: none;
+    border-bottom: 2px solid silver;
+    background-color: whitesmoke;
+    width: 100%;
+    color:black ;
+}
+
+.sign-up{
+    text-align: center;
+    margin: 25px 0px 25px 0px ;
+}
+
+.login-icons{
+    text-align: center;
+    font-size: 33px;
+}
+
+.user-info{
+    font-size: 1.2rem;
+    color: #3C4048;
+}
+
+.fa-facebook:hover{
+    color: #2A3990;
+}
+
+.fa-twitter:hover{
+    color:#59C1BD;
+}
+
+.fa-google:hover{
+    color: #EB6440;
+}
+
+.fa-facebook,.fa-google,.fa-twitter{
+padding: 0px 2px 0px 2px;
+}
+
+.input-bar{
+    display: flex;
+}
+
+.sign-up-option{
+    text-align: center;
+    padding-top: 40%;
+}
+
+

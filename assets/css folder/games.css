@@ -1,0 +1,59 @@
+body{
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-change:nth-child(4){
+    background-color:#FB2576;
+}
+
+/* content */
+.game-image{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    background-color: lightgrey;
+    transition: 0.75s;
+}
+
+.game-image:hover{
+    transform: scale(1.4);
+}
+
+.game-name{
+    color: aquamarine;
+    text-shadow: 0 0 2px aquamarine;
+}
+
+.game-name:hover{
+  
+    color: white;
+    text-shadow: 0px 0px 2px whitesmoke;
+}
+
+.game-name:active{
+    text-shadow: 0px 0px 2px #FF86D8;
+    color: #F63BBA;
+}
+  
+
+.name-adjust{
+    width: 90px;
+    overflow: hidden;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding:3%;
+}
+
+.rows{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
